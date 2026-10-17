@@ -29,8 +29,8 @@ namespace Model.Runtime.Projectiles
             ///////////////////////////////////////
             // Insert you code here
             ///////////////////////////////////////
-            float maxHeight = totalDistance * 0.4f; //находим 60% от totalDistance присваеваем в maxHeight
-            localHeight = ( - (t * t - 1f) * (t * 2f - 1f) + 1f); //задаем отрицательное значение параболе,  
+            float maxHeight = totalDistance * 0.6f; //находим 60% от totalDistance присваеваем в maxHeight
+            localHeight = maxHeight * (-(t * 2 - 1) * (t * 2 - 1) + 1); //задаем отрицательное значение параболе,  
 
 
             ///////////////////////////////////////
